@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Papper Scissor</title>
+    <script src="https://kit.fontawesome.com/78b669b549.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/game.css">
+</head>
+<body>
+    <h1>Rock Papper Scissor</h1>
+    <div class="img1">
+        <a href="{{url_for('sreejith',choise = 'Rock')}}"><button><i class="fa-solid fa-hand-back-fist" alt="Rock"></i> </button></a>
+        <a href="{{url_for('sreejith',choise = 'Papper')}}"><button><i class="fa-solid fa-hand" alt="Papper"></i> </button></a>
+        <a href="{{url_for('sreejith',choise = 'Scissor')}}"><button><i class="fa-solid fa-hand-scissors" alt="Scissor"></i></button></a>  
+    </div>
+</body>
+</html>

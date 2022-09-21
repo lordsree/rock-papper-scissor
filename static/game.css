@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: darksalmon;
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 200px;
+}
+i{
+    font-size: 100px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: white; 
+    margin-top: 50px;
+    text-shadow: 2px 2px black;
+}
+button{
+    padding: 20px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(118, 118, 190);
+    color: rgb(135, 66, 66);
+    border: 2px solid olivedrab;
+}
